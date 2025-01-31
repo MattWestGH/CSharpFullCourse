@@ -23,9 +23,30 @@ namespace CSharpFullCourse
                 Console.ReadLine();
             */
 
-            for (int i = 1; i <= 15; i++) {
+            string fizzBuzzSentence = "";
+            for (int i = 1; i <= 15; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    fizzBuzzSentence += "FizzBuzz "; // for numbers divisible by both 3 and 5
+                }
+                else if (i % 3 == 0)
+                {
+                    fizzBuzzSentence += "Fizz "; // for numbers divisible by 3
+                }
+                else if (i % 5 == 0)
+                {
+                    fizzBuzzSentence += "Buzz "; // for numbers divisible by 5
+                }
+                else
+                {
+                    fizzBuzzSentence += i+ " "; // for numbers divisible by neither 3 nor 5
+                }
+            }
 
-            };
+            Console.WriteLine(fizzBuzzSentence);
+            Console.ReadLine();
+
         }
     }
 }
