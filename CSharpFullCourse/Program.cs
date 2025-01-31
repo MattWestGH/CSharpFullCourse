@@ -24,7 +24,7 @@ namespace CSharpFullCourse
             */
 
             for (int i = 1; i <= 15; i++) {
-                //this is to test version control again
+
             };
         }
     }
