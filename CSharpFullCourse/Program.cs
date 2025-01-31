@@ -10,13 +10,21 @@ namespace CSharpFullCourse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your number:");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the number to divide by:");
-            int number2 = Convert.ToInt32(Console.ReadLine());
-            int remainder = number1 % number2;
-            Console.WriteLine("The remainder is: " + remainder);
-            Console.ReadLine();
+            /*
+             * This is a Times Table function
+             *
+                Console.WriteLine("Please enter a number for the times table:");
+                int timesTableNum = Convert.ToInt32(Console.ReadLine());
+                for (int i = 1; i < 11; i++)
+                {
+                    Console.WriteLine("{0} x {1} = {2}", i, timesTableNum, i * timesTableNum);
+                }
+                Console.ReadLine();
+            */
+
+            for (int i = 1; i <= 15; i++) { 
+            
+            };
         }
     }
 }
