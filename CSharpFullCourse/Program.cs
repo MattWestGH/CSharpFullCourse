@@ -10,8 +10,12 @@ namespace CSharpFullCourse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            int age = 23;
+            Console.WriteLine("Enter your number:");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the number to divide by:");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            int remainder = number1 % number2;
+            Console.WriteLine("The remainder is: " + remainder);
             Console.ReadLine();
         }
     }
